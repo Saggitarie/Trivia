@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "122693981193",
+    "firebase_url": "https://polyglottal-flutter.firebaseio.com",
+    "project_id": "polyglottal-flutter",
+    "storage_bucket": "polyglottal-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122693981193:android:874f3dad2624190cfbd4d8",
+        "android_client_info": {
+          "package_name": "com.example.quiz_polyglottal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122693981193-e381qco54nfg0frn46knqe63ptjmf8uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7diPzfZ2kMQ1VBIMvk4Ahp2pkGL1V0nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122693981193-e381qco54nfg0frn46knqe63ptjmf8uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
