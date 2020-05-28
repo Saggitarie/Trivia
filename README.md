@@ -1,16 +1,39 @@
-# quiz_polyglottal
 
-A new Flutter project.
+# Trivia
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+**A mobile quiz app for killing time. **
 
-A few resources to get you started if this is your first Flutter project:
+## Getting Started (Installation)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Step 1
+Install the following editors into your computer:
+1) [Android Studio](https://developer.android.com/studio) 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2) [Xcode](https://developer.apple.com/xcode/)
+
+**If you already have it installed, skip this step.**
+
+### Step 2
+Create a virtual simulator for an Android and IOS device.
+
+### Step 3
+Run main.dart after specifying the simulator you want to test in onto.
+
+## Deployment
+
+ Aiming to release this app in the near future on [App Store](https://www.apple.com/ios/app-store/) and [Google Play](https://play.google.com/store?hl=en).
+
+## [](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#built-with)Built With
+
+-   [Dart]([[https://dart.dev/](https://dart.dev/)]([https://dart.dev/](https://dart.dev/)))  - a client-optimized language for fast apps on any platform
+-   [Flutter]([[https://flutter.dev/?gclid=Cj0KCQjwwr32BRD4ARIsAAJNf_1BW0LYyjc_h_-iRFMvO-C4N5n0oj9GCurPDwSVcrF_hnAMObsf6-saAsxyEALw_wcB&gclsrc=aw.ds](https://flutter.dev/?gclid=Cj0KCQjwwr32BRD4ARIsAAJNf_1BW0LYyjc_h_-iRFMvO-C4N5n0oj9GCurPDwSVcrF_hnAMObsf6-saAsxyEALw_wcB&gclsrc=aw.ds)]([https://flutter.dev/?gclid=Cj0KCQjwwr32BRD4ARIsAAJNf_1BW0LYyjc_h_-iRFMvO-C4N5n0oj9GCurPDwSVcrF_hnAMObsf6-saAsxyEALw_wcB&gclsrc=aw.ds](https://flutter.dev/?gclid=Cj0KCQjwwr32BRD4ARIsAAJNf_1BW0LYyjc_h_-iRFMvO-C4N5n0oj9GCurPDwSVcrF_hnAMObsf6-saAsxyEALw_wcB&gclsrc=aw.ds)))  - Google's UI toolkit for making the app responsible to all devices.
+- [Firebase](https://firebase.google.com/) - NoSQL Database
+
+## Authors
+-   ****Kohki Shiga****  -  Github: [Github Repository]([https://github.com/CarlosIUSalazar](https://github.com/CarlosIUSalazar))
+
+
+## License
+
+This project is licensed under the MIT License - see the  [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md)  file for details
