@@ -1,3 +1,8 @@
+<p align="center">
+ <img width=500px height=px src="./cc.png"/>
+</p>
+
+<h3 align="center">Polyglattal Project</h3>
 
 # Trivia
 
