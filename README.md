@@ -43,8 +43,8 @@ Run main.dart after specifying the simulator you want to test in onto.
 
 ## [](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#built-with)Built With
 
--   [Dart]([[https://dart.dev/](https://dart.dev/)]([https://dart.dev/](https://dart.dev/)))  - a client-optimized language for fast apps on any platform
--   [Flutter]([[https://flutter.dev/?gclid=Cj0KCQjwwr32BRD4ARIsAAJNf_1BW0LYyjc_h_-iRFMvO-C4N5n0oj9GCurPDwSVcrF_hnAMObsf6-saAsxyEALw_wcB&gclsrc=aw.ds](https://flutter.dev/?gclid=Cj0KCQjwwr32BRD4ARIsAAJNf_1BW0LYyjc_h_-iRFMvO-C4N5n0oj9GCurPDwSVcrF_hnAMObsf6-saAsxyEALw_wcB&gclsrc=aw.ds)]([https://flutter.dev/?gclid=Cj0KCQjwwr32BRD4ARIsAAJNf_1BW0LYyjc_h_-iRFMvO-C4N5n0oj9GCurPDwSVcrF_hnAMObsf6-saAsxyEALw_wcB&gclsrc=aw.ds](https://flutter.dev/?gclid=Cj0KCQjwwr32BRD4ARIsAAJNf_1BW0LYyjc_h_-iRFMvO-C4N5n0oj9GCurPDwSVcrF_hnAMObsf6-saAsxyEALw_wcB&gclsrc=aw.ds)))  - Google's UI toolkit for making the app responsible to all devices.
+-   [Dart](https://dart.dev/])  - a client-optimized language for fast apps on any platform
+-   [Flutter](https://flutter.dev/?gclid=Cj0KCQjwwr32BRD4ARIsAAJNf_1BW0LYyjc_h_-iRFMvO-C4N5n0oj9GCurPDwSVcrF_hnAMObsf6-saAsxyEALw_wcB&gclsrc=aw.ds) - Google's UI toolkit for making the app responsible to all devices.
 - [Firebase](https://firebase.google.com/) - NoSQL Database
 
 ## Authors
