@@ -1,3 +1,4 @@
+import 'package:audio_service/audio_service.dart';
 import 'package:flutter/material.dart';
 import 'package:quiz_polyglottal/SetupPages/welcome.dart';
 
@@ -7,12 +8,14 @@ class Quizzler extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.grey.shade900,
-        body: SafeArea(
-          child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10.0),
-            child: Welcome(),
+      home: AudioServiceWidget(
+        child: Scaffold(
+          backgroundColor: Colors.grey.shade900,
+          body: SafeArea(
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10.0),
+              child: Welcome(),
+            ),
           ),
         ),
       ),

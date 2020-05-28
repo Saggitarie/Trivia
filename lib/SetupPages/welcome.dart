@@ -43,7 +43,8 @@ class _WelcomeState extends State<Welcome> {
     );
   }
 
-  void navigateToSignUp() {
+  void navigateToSignUp (){
+
     Navigator.push(
       context,
       MaterialPageRoute(

@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "package:firebase_auth/firebase_auth.dart";
 import 'package:quiz_polyglottal/QuizPages/quizepage.dart';
+import 'package:quiz_polyglottal/SetupPages/start.dart';
 
 class SigninPage extends StatefulWidget {
   @override
@@ -9,7 +10,7 @@ class SigninPage extends StatefulWidget {
 
 class _SigninPageState extends State<SigninPage> {
   String _email, _password;
-  final GlobalKey<FormState> _formKey= GlobalKey<FormState>();
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,49 +20,52 @@ class _SigninPageState extends State<SigninPage> {
             child: Column(
               children: <Widget>[
                 TextFormField(
-                  validator: (input){
-                    if(input.isEmpty){
+                  validator: (input) {
+                    if (input.isEmpty) {
                       return "Please type an email";
                     }
                   },
-                  onSaved: (input)=> _email = input,
-                  decoration: InputDecoration(
-                      labelText: "Email"
-                  ),
+                  onSaved: (input) => _email = input,
+                  decoration: InputDecoration(labelText: "Email"),
                 ),
                 TextFormField(
-                  validator: (input){
-                    if(input.isEmpty){
+                  validator: (input) {
+                    if (input.isEmpty) {
                       return "Please type an password";
                     }
                   },
-                  onSaved: (input)=> _password = input,
-                  decoration: InputDecoration(
-                      labelText: "Password"
-                  ),
+                  onSaved: (input) => _password = input,
+                  decoration: InputDecoration(labelText: "Password"),
                   obscureText: true,
                 ),
                 RaisedButton(
-                  onPressed: (){signIn();},
+                  onPressed: () {
+                    signIn();
+                  },
                   child: Text("Sign in"),
                 )
               ],
-            )
-        )
-    );
+            )));
   }
 
-  Future<void> signIn() async{
+  Future<void> signIn() async {
     final formState = _formKey.currentState;
-    if(formState.validate()){
+    if (formState.validate()) {
       formState.save();
-      try{
+      try {
         FirebaseUser user = (await FirebaseAuth.instance
-            .signInWithEmailAndPassword(email: _email.trim(), password: _password)).user;
+                .signInWithEmailAndPassword(
+                    email: _email.trim(), password: _password))
+            .user;
 
         //TODO Navigate to home
-        Navigator.push(context, MaterialPageRoute(builder: (context) => QuizPage()));
-      }catch(e) {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => StartPage(),
+          ),
+        );
+      } catch (e) {
         print(e.message);
       }
     }
