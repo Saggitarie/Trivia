@@ -1,8 +1,8 @@
 <p align="center">
- <img width=500px height=px src="./cc.png"/>
+ <img width=150px height=px src="./cc.png"/>
 </p>
 
-<h3 align="center">Polyglattal Project</h3>
+<h3 align="center">Polyglottal Project by Kohki Shiga</h3>
 
 # Trivia
 
@@ -21,6 +21,10 @@ Install the following editors into your computer:
 
 ### Step 2
 Create a virtual simulator for an Android and IOS device.
+
+<p align="center">
+ <img width=150px height=px src="./cc.png"/>
+</p>
 
 ### Step 3
 Run main.dart after specifying the simulator you want to test in onto.
