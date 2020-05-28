@@ -5,7 +5,9 @@
 <h3 align="center">Polyglottal Project by Kohki Shiga</h3>
 
 # Trivia
-
+<p align="center">
+ <img width=150px height=px src="./trivia-welcome.png"/>
+</p>
 
 **A mobile quiz app for killing time. **
 
