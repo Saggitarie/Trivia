@@ -22,8 +22,14 @@ Install the following editors into your computer:
 ### Step 2
 Create a virtual simulator for an Android and IOS device.
 
+<h5 align="left">Step 2-1</h5>
 <p align="center">
- <img width=150px height=px src="./cc.png"/>
+ <img width=600px height=px src="./simulator-pic.png"/>
+</p>
+
+<h5 align="left">Step 2-2</h5>
+<p align="center">
+ <img width=600px height=px src="./device-pic.png"/>
 </p>
 
 ### Step 3
