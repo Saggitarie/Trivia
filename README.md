@@ -5,7 +5,7 @@
 <h3 align="center">Polyglottal Project by Kohki Shiga</h3>
 
 # Trivia
-<p align="center">
+<p align="left">
  <img width=150px height=px src="./trivia-welcome.png"/>
 </p>
 
